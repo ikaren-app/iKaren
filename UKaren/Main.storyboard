@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -280,18 +281,18 @@
                         <segue destination="JPp-qX-ku6" kind="relationship" relationship="viewControllers" id="8pF-ug-vOH"/>
                         <segue destination="HpD-kx-O6A" kind="relationship" relationship="viewControllers" id="TZZ-hb-lxI"/>
                         <segue destination="MRV-Ou-wIy" kind="relationship" relationship="viewControllers" id="1qf-sA-jnS"/>
-                        <segue destination="SL8-tg-8eG" kind="relationship" relationship="viewControllers" id="vLR-cN-M7a"/>
+                        <segue destination="H8X-v2-a7m" kind="relationship" relationship="viewControllers" id="Xcw-Wm-VG3"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U6B-p4-ksW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2928.639999999999" y="-1151.3283358320841"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Item-->
         <scene sceneID="xlG-tg-ZMC">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MRV-Ou-wIy" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="more" id="ivF-qZ-8fM"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="ivF-qZ-8fM"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="rT9-uZ-gME"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="it5-C0-hay">
@@ -383,179 +384,946 @@
             </objects>
             <point key="canvasLocation" x="-1770" y="-269"/>
         </scene>
-        <!--Karen Legend-->
-        <scene sceneID="My3-gI-irX">
+        <!--View Controller-->
+        <scene sceneID="yzH-7X-7Mc">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mZY-KB-iZW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="vgJ-sb-7bL" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0xU-4m-iwN">
+                <viewController storyboardIdentifier="pg1" id="cpV-Of-9fj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WAt-ww-fpY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="O4d-ud-bLG">
-                                <rect key="frame" x="133" y="99" width="188" height="328"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="N4s-2c-3rz">
+                                <rect key="frame" x="16" y="98" width="343" height="569"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">zkwD&gt;rD.vltd.'D;tck;wvD&gt;'D;zJtck;uyRM.'D;vDR0Jxkwcg vXvH.ytD*hR &lt;A xD; wdR*hR ub.0Jt*D&gt;vDR I At0JtD. b.csK;vH.ytDxJ cH'k'D; txkMk .'d;wu;xH.M&gt;tw&gt;tCdvXcHwcsK;t0JvJR uG&gt;0J'H; b.M.&lt;A 'd;wu;vJRqdvXtrJmng'D; tD. uGHm tw&gt;wbd,k&gt;CDvDRApX&gt;pX&gt;zkwD&gt; rD. vl w&gt;bHS ;w&gt;wDR xD. to;'D;vJR 0Jql y0HypJt td. 'D ;oHuG&gt; oH'd; 0Jw&gt;*h&gt; w&gt;usdR vDRI y0HypJrRvdmtDR'ftHR&lt; AvJRrRM&gt; ?[D.'l.trk&gt;/ vXtbD.xD.oDoD p&gt;p&gt;M.vXttd.'D; tC&gt;rd&gt;yS&gt; ?uHm / wbd'D; uDswJmuGm cHulm’'D;'XEkm vDR vXeegphRtylR&lt; AwylRwulm0HRvJR'k;b.uhReo;vXexk'.0Jwuh&gt;I A
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="PH6-fb-923">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PpH-bI-EdG">
+                                <rect key="frame" x="150" y="646" width="75" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jZj-wA-mOv">
-                                <rect key="frame" x="16" y="99" width="109" height="96"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="zkwD&gt;rD.vl" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5Tl-at-Mgf">
+                                <rect key="frame" x="16" y="20" width="343" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="Putawmawlu.png"/>
-                                <connections>
-                                    <segue destination="HH7-DJ-lfd" kind="push" id="RbZ-vw-bZe"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="38"/>
+                                <color key="textColor" red="0.98733974359999999" green="0.98733974359999999" blue="0.98733974359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.077802456919999999" green="0.7977159023" blue="0.78782242540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hTf-LD-rwt"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Karen Legend" id="HxS-mv-p91"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BbS-4p-MPn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="60" y="-269.41529235382313"/>
+            <point key="canvasLocation" x="-3225" y="3072"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="Jkq-b6-6QB">
+        <scene sceneID="QAD-Jq-EJo">
             <objects>
-                <viewController storyboardIdentifier="pg1" id="u6K-jH-5Rt" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ORZ-g3-ax1">
+                <viewController storyboardIdentifier="pg4" id="s8D-nV-Gol" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h7Q-6I-TEo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" name="findHighlightColor" catalog="System" colorSpace="catalog"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="4Ya-ZU-QLF">
+                                <rect key="frame" x="16" y="106" width="343" height="561"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">wkR'd;wu;wu&amp;Xe&gt;[lCJ'duds.urJRw&gt;oD.'fM .'D; zVwysKmCJ'D; pH;b.tDR&lt;Aeqd.b.zkwD&gt;rD.vlvDRI Aw&gt;oH&lt; Aw&gt;oH&lt;AepH;vXtwoHb.&lt; Ab. rEkRvJ./&lt; CJCh&gt;xD.uGHmqlw&gt;t,HRvXw&gt;zVtDRtCdvDRIAemouh[JuhR0JwbDsb.wbDs'D ;'du'D;tuds.urJRu'D;w&gt;'fvD&gt;vD&gt;vDRI A‘'d; wu;ph&gt;ud;vlRzVvlR wD&gt;tDRwbDsb.wbDsvD RI AvXcHuwX&gt;CJCh&gt;uGHm'D; w[JuhR vXRb.IAzJ'd;wu;w&amp;Xo;ckrRvk&gt;rRxgp;HjyL;jyL;tcg&lt;AzkwD&gt;rD.vl*JRqX x X . o w l&gt; u v m , &gt; p ,k &gt; cD . 0 H&gt; 0 &gt; t o ; w b D&lt;A' d; w u ;w &amp; X z k; o Hy sD&gt;o bH . to;&lt; Atd.vXvX&gt;vdRvhvdRvDRwJmoHuGHmcJvXmtd.wh&gt;'D;rluhR'.xJ'd; wu;o;yS&gt;zhrJmw'k{dRvDRI A'D;'d;wu;zhrJmtHRogurR*JRxX.orlxD.uhRtoud;vXtoHw&amp;Xt*D&gt;yJmxD.yhRyd&gt;'D;urJRxD.Ckm0J&lt;= A</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.98021808701981128" green="1" blue="0.96036303296983672" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">zdoHwuxdxHu,R&lt; 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.98021808701981128" green="1" blue="0.96036303296983672" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="AA">
+                                        <attributes>
+                                            <color key="NSColor" red="0.98021808701981128" green="1" blue="0.96036303296983672" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">rh&gt;zSHb.uhRuJw&gt;vXmI 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.98021808701981128" green="1" blue="0.96036303296983672" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="zkwD&gt;rD.vl" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="13V-4o-e3L">
+                                <rect key="frame" x="16" y="20" width="343" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="38"/>
+                                <color key="textColor" red="0.98733974359999999" green="0.98733974359999999" blue="0.98733974359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.077802456919999999" green="0.7977159023" blue="0.78782242540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oeA-Pn-6Hb">
+                                <rect key="frame" x="148" y="646.5" width="75" height="20.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="JL2-4n-DPV"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="56A-NY-Hoo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BJz-C7-TKE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-294" y="474"/>
+            <point key="canvasLocation" x="-1164" y="3073"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="3d2-Mu-COu">
+        <scene sceneID="43o-oA-8cl">
             <objects>
-                <viewController storyboardIdentifier="pg2" id="XwU-NC-r8F" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="E2x-Nu-Y40">
+                <viewController storyboardIdentifier="pg5" id="wWH-be-MWD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Quk-zw-7AV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" name="systemPinkColor" catalog="System" colorSpace="catalog"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="wfu-fD-Z7v">
+                                <rect key="frame" x="16" y="114" width="343" height="553"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">zJtrRw&gt;'fM.tcg&lt; zkwD&gt;rD.vlvJRu,Du,DvXtuyR'D;pH;b.tDR&lt; ?zH{X&lt;A eyhRyd&gt;w&amp;XydA&gt;oD. rkmr;vDRI A[h.,ReeD&gt;'d;ud mG ,uyJmuG&gt;uG&gt;wbD&lt;AtM.'D;zH[h.tDRteD&gt;'d;uGm'D;zkwD&gt;rD.vl'du&gt;uGHmzHtegphRzHoHb.to; ph&gt;uD;vDRIAwkREkRwbsDzkwD&gt;rD.vl[;CkuG&gt;w&gt;vX'd;wu;w&amp;Xttd.t qd; tvD&gt;tusJ'D; xH.M&gt;txtl pth w&gt;v&gt;k 'd.yShR'd.wz.'D; uhRpdm 0Jc vXm vDRI 
+wkRvXto0DylR'D;vXw&gt;tJ.w&gt;uGHb.to0DzdtylR&lt; 'fySRunD vXtysXRtvk&gt;tv&gt;td.0Jtod;[h.vDR[H.ud;zsX.'J;xlph'D;w&gt;vk.'d. yShR'd. oh. wz.vDR IA rhrh&gt; [H. td. 0Jw 'l. vXtw[H; M&gt;wl&gt; vdm </string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="zkwD&gt;rD.vl">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">w&gt;[h.b.'D;pH;0JvX,rRohph&gt;uD;&lt; A,wo;vDew&gt;[h.b.vDRI A
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="zkwD&gt;rD.vl" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="di2-jb-2Cy">
+                                <rect key="frame" x="16" y="20" width="343" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="38"/>
+                                <color key="textColor" red="0.98733974359999999" green="0.98733974359999999" blue="0.98733974359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.077802456919999999" green="0.7977159023" blue="0.78782242540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="flI-AH-AFS">
+                                <rect key="frame" x="150" y="646" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6f1-AM-sqZ"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gbV-H6-ahN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="06v-5j-rr9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="450" y="453"/>
+            <point key="canvasLocation" x="-471" y="3073"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="oAV-XP-sJ9">
+        <scene sceneID="cZ9-Y2-kJq">
             <objects>
-                <viewController storyboardIdentifier="pg3" id="1Tm-om-Dhg" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="lXh-yh-25r">
+                <viewController storyboardIdentifier="pg6" id="fqk-Zs-Jcu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2OP-UQ-9bi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" name="controlAccentColor" catalog="System" colorSpace="catalog"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="7wo-IP-2ji">
+                                <rect key="frame" x="16" y="111" width="343" height="556"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">ySRw*RtHRvJRrRM&gt;y[D.uHm trd&gt;yS&gt;wzsX.'D; wuDswJm0Jb .&lt;A zX Ekm '.0JtegphRylR 'DzsX.'fM .0HR vJR 'k; b.to;vXxkvDRI A 'd; wu;[JuG&gt;Ck 'D;xH.u'D;xkup&gt;w*Rtxkb.oHuhRtDRtCd&lt;AvXw&gt;oh.ngw&gt;bsK; w&gt;zsd.tylRt0Joh. uhR pdm 0Jqlt td. tqd; tvD&gt;'fod;tu[lxD.rdR xD.0JvDRIAzJ'd;wu;rRvk&gt;tk.xgtcguHmrd&gt;yS&gt;*JRxD.vXySRw*RM.tegphR y lR  'D; t e g ph Ru d&gt;uGH  b.tD R t Cd u qJ xD. 0J [ g ch F.[ g c Fh. 'D; uH m  r d&gt; y S&gt; v DR w Jm uGHm'D;'d;wu;xH.b.uHmrd&gt;yS&gt;'D;ys&gt;vDRwJmuGHmySRw*RM.'D;vDRwJmoHvXvhvdR'D;'d;wu;w&amp;XtD.0H.tD.qXuGHmtDRvDRI ow;'D;ySRo;yS&gt;rR xgpH;0J&lt;A= ArR'D;zkwD&gt;rD.vlwoh&lt;AvDRwJmoHvXvX&gt;ylRvhI 
+ 
+
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="zkwD&gt;rD.vl" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nRg-HS-lpc">
+                                <rect key="frame" x="16" y="20" width="343" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="38"/>
+                                <color key="textColor" red="0.98733974359999999" green="0.98733974359999999" blue="0.98733974359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.077802456919999999" green="0.7977159023" blue="0.78782242540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tnz-dw-RRI">
+                                <rect key="frame" x="150" y="646" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="epE-HA-lEb"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lO0-TH-M6D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B4S-Zl-dMA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1157" y="463"/>
+            <point key="canvasLocation" x="318" y="3073"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="X7Q-a1-MZc">
+        <scene sceneID="VGA-4H-JUM">
             <objects>
-                <viewController storyboardIdentifier="pg4" id="leb-RA-7ig" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="X1q-UD-KLD">
+                <viewController storyboardIdentifier="pg7" id="Ki2-3u-Oko" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hxu-PT-JSd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="w&gt;wJtHRuwX&gt;'.zJtHRvDR" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hdg-79-3Ts">
+                                <rect key="frame" x="16" y="95" width="343" height="572"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="57"/>
+                                <color key="textColor" red="0.98733974359999999" green="0.98733974359999999" blue="0.98733974359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.077802456919999999" green="0.7977159023" blue="0.78782242540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XCl-zx-f0e">
+                                <rect key="frame" x="77" y="632" width="221" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="yzT-JJ-kHl"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qfy-KN-HfH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CfQ-hk-5Hf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1911" y="490"/>
+            <point key="canvasLocation" x="1046" y="3074"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="maT-jm-Com">
+        <scene sceneID="XvQ-cA-gGk">
             <objects>
-                <viewController storyboardIdentifier="pg5" id="1rq-dg-9KX" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="T18-88-1Ev">
+                <viewController storyboardIdentifier="pg2" id="ezh-q6-Hd1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ipe-iL-glO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="zkwD&gt;rD.vl" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Sw-0y-Mbi">
+                                <rect key="frame" x="16" y="20" width="343" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="38"/>
+                                <color key="textColor" red="0.98733974359999999" green="0.98733974359999999" blue="0.98733974359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.077802456919999999" green="0.7977159023" blue="0.78782242540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="CWy-xg-8lZ">
+                                <rect key="frame" x="16" y="104" width="343" height="563"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">zkwD&gt;rD.vluhR'D;rR0J'fy0HypJrRvdmtDRtod;'D;vJR'k;b.to; vXtxkM. vDRI w*DRtHR'd;wu;wzk[JuG&gt;xk'D;xH.vXtup&gt;b.uhR txk'.0JtCd&lt; ApH;vdmto;oud;oud; ?tvgvg&lt; AwbsDtHRxkup&gt; b.uhR txk' .0r ;vJ. &lt; At0JtbsK;tzSd.ytD. xDbd'D; wbDstHR tbsK;t zSd.uwX&gt;vXy*D&gt;vH&lt; AvXw&gt;oh.nguhRtbsK;t*D&gt;yb.uhRpdm'D;[lxD.rdRxD.uhRtDRM.vDRIAt0Joh.uhRpdmzkwD&gt;rD.vlqltvD&gt;td.vD&gt;qd;'D;zJt0Joh.rRvk&gt;tk.xg[D.w&gt;,XRw&gt;tcgM.CJw'k[JvXt,HR'D;uG&gt;0Jw bs;'D;oh. ng0Jv XzkwD&gt;rD.vltHRwr&gt;h tobH .I AuG&gt;'.'d;wu;wu&amp;XvX trJmzH;zDvmtCd&lt; ACJM.ydmtyDRulwcDcDurJRw&gt;'D;pH;0J&lt;= </string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HRE-q7-6qZ">
+                                <rect key="frame" x="150" y="646" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="jBo-J8-iX3"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="J8S-PK-7gx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uwv-RA-koZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2636" y="490"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="FwL-bC-h3s">
-            <objects>
-                <viewController storyboardIdentifier="pg6" id="g9k-u1-mHj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="0c9-vx-21u">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="B8u-3K-HF9" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3337" y="466"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="ZiU-Ak-NHw">
-            <objects>
-                <viewController storyboardIdentifier="pg7" id="Z0m-In-pP4" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Q6e-JY-EeA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZJ7-An-aTn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4095" y="508"/>
+            <point key="canvasLocation" x="-2546" y="3076"/>
         </scene>
         <!--Putamawlay-->
-        <scene sceneID="ZV3-nR-OqM">
+        <scene sceneID="zrL-Nx-fzg">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="drM-yr-Wk0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="HH7-DJ-lfd" customClass="Putamawlay" customModule="UKaren" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="KOT-vV-uBT">
+                <viewController id="Juo-DP-KmD" customClass="Putamawlay" customModule="UKaren" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CbI-Ue-oPh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="sBZ-uv-NeY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="eHg-W5-id4"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HHU-9a-105" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="753" y="-278"/>
+            <point key="canvasLocation" x="-598" y="1507"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Vbc-Pm-k7l">
+            <objects>
+                <viewController storyboardIdentifier="pg3" id="kJ6-lQ-poz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ihv-1A-9c1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="zkwD&gt;rD.vl" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="flX-vk-39f">
+                                <rect key="frame" x="16" y="20" width="343" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="38"/>
+                                <color key="textColor" red="0.98733974359999999" green="0.98733974359999999" blue="0.98733974359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.077802456919999999" green="0.7977159023" blue="0.78782242540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="rhc-JZ-IMn">
+                                <rect key="frame" x="90" y="178" width="206" height="489"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">usRphRulRrlpDR*JR*DR 
+t'hu&gt;vdR'hu&gt;vdR u&gt;qloh.cHoh.0.vdR zkwD&gt;rD.vlwoH{J&gt; trJmuG&gt;'D;pD.0JRuJRI</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hLU-eh-X8E">
+                                <rect key="frame" x="150" y="646" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="cp3-LN-FHY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fze-6z-XAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1868" y="3074"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GQ2-gV-qoh">
+            <objects>
+                <viewController id="cnR-2O-LCy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rx0-F4-kup">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="ReY-um-xIw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="smO-h8-6mY">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <color key="backgroundColor" red="0.27368049459999999" green="0.2787065842" blue="0.2877009505" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="obM-gf-A4m">
+                                        <rect key="frame" x="33" y="108" width="125" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="HS.png">
+                                            <color key="titleColor" red="0.011614515799999999" green="0.01298735344" blue="0.016794892129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="nu1-0l-kEu" kind="show" id="ko4-L4-PMv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jMd-Me-KNa">
+                                        <rect key="frame" x="203" y="108" width="125" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="Putawmawlu.png">
+                                            <color key="titleColor" red="0.011614515799999999" green="0.01298735344" blue="0.016794892129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="Juo-DP-KmD" kind="show" id="2aG-U9-MBo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3SB-by-eUX">
+                                        <rect key="frame" x="203" y="252" width="125" height="115"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="MYP.png">
+                                            <color key="titleColor" red="0.011614515799999999" green="0.01298735344" blue="0.016794892129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="g2b-eh-icg" kind="show" id="gM0-LQ-r9n"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oYx-aF-LaA">
+                                        <rect key="frame" x="33" y="252" width="125" height="115"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="K&amp;N.png">
+                                            <color key="titleColor" red="0.011614515799999999" green="0.01298735344" blue="0.016794892129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="8zU-hJ-fAE" kind="show" id="Xgj-jp-SN0"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="chs-MH-7Pf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SeW-mf-qOf">
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xda-FX-rVb">
+                            <rect key="frame" x="147" y="7" width="81" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Karen Story">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yeU-OY-Umg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2316" y="1508"/>
+        </scene>
+        <!--Hser Theblut-->
+        <scene sceneID="unm-eZ-E5i">
+            <objects>
+                <viewController storyboardIdentifier="Main" id="nu1-0l-kEu" customClass="HserTheblut" customModule="UKaren" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9L1-ll-wDC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.90760231560000004" green="1" blue="0.91027186819999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="qEN-TQ-BIh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pIH-xy-Oyn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1495" y="1507"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="D61-Ks-eM4">
+            <objects>
+                <viewController storyboardIdentifier="page1" id="nR6-HJ-9KY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BUL-Cu-i8D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="pwn-to-hF0">
+                                <rect key="frame" x="16" y="92" width="343" height="575"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">AAywJw&gt;vXysXRySR'DwcGgcH*RvXtrh&gt;pDRwDvk;'D;eD&gt;'GJ.M.trd&gt;t y&gt;cHcD vXmtX.vDR tDvDDR vdm to;vXtzdwcsK;td&gt; zsJJ 'HH; b.w*R*RrHrh&gt; ydmcgG &lt; Aw*Rrhrh&gt; ydmrk. M.urRoH. rRzD0J'D; whCkm zsDCkm0JvDRIAwkRzdo .cH*Rtd.zsJ.xD.wpk&lt;Arh&gt;oyS&gt;wX&gt;rk.w*RcGgw*Row;'D;ol.vDRyvdmo;vDR *mto;wkR '.vJmySR ymrhvDR z;tDR wM&gt;b.IA ySR rh&gt; ymrHv DR vXpkm wzsX.CD tylR r;rH0JM.vDR AI wkR t'd. xD.’'D; oh. ngtJ. vdm uGHvdm to;wpJ;b.w pJ; ph&gt; uD; &lt;A'd.xD. w&gt;tJ. tgxD. 'D; uJoH. uJzD &lt;A'fy pH;w&gt;tod; tJ.b.vdmto;'D;ySRtD.CH;tD.CD.M&gt;t0Joh.M.vDRIArhrh&gt;wcsK;ySRwhCkmzsDCkmt0Joh.'H;b.M.pDRwDvk;ub[;xD.vJRul.vJRrRuRw&gt;qlxH,HRuD&gt;,HRM.vDRIAwcsK;t0JvJRw&gt;M.rRvdmym0JeD&gt;'GJ.vX&lt;?,uvRJrRuRw&gt;'D;wb.ol.wDo ;*hRvXySR*kmySR*Rw*hR&lt;A,w&gt;zH;w&gt;rRrh&gt;0HR,u[JuhR'D;yutD.rl;tD.yGJ'D;whCkmzsDCkmy o;vDRI/ </string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="qX'D;obsK." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="T56-bB-YhP">
+                                <rect key="frame" x="0.0" y="27" width="375" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="38"/>
+                                <color key="textColor" red="0.98733974359999999" green="0.98733974359999999" blue="0.98733974359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.077802456919999999" green="0.7977159023" blue="0.78782242540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jHL-V7-3dS">
+                                <rect key="frame" x="156" y="638" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="GaP-ae-wQl"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DoP-LL-djF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="1473.913043478261"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Nyn-Ki-PQ2">
+            <objects>
+                <viewController storyboardIdentifier="page2" id="51Y-gx-ND9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jcf-th-gvi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="YT1-Nx-cov">
+                                <rect key="frame" x="16" y="96" width="343" height="571"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">AAAAwkREkRwpkpDRwDvk[;xD.vJRw&gt;vDRIAeD&gt;'GJ.td.wh&gt;vXw&gt;rk&gt;v&gt; uG&gt;v&gt;tylRvDRI t0Jrh&gt;ySR'd.xD.b.'k.b.'h*hRr;w*Rtod;ySRydmcGgtg*R[Jwvd&gt;tDR&lt;A[JuwdR[;*DRto;vXpDRwDvk;rh&gt;ySRypg'ftHR'fEkR'D;cJtHR[grlR[gr&gt;vH&lt;Ab.q.eD&gt;'GJ.to;usXRrkqkwu'Hu'geDwpJ;b.Ib.q.vXcHuwX&gt;vXw&gt;rRql.tDRtCdeD&gt;'GJ.b.zsDto;'D;ySRuD&gt;0&gt;cDw*RvDRIAzsDto0HRuhRydmt0RtcHqluD&gt;0&gt;cDvDRIAuhR0HRwbsK;oD'D;pDRwDvk[JuhRwkRvXtw&gt;vJRw&gt;uhRtylRvDRIAzJpDRwDvk[JuhRyX&gt;xD.tcgySRwJtDRvXeD&gt;'GJ.zsDto;'D;ySRuD&gt;0&gt;cD&lt;A'D;uhRydmt0RtcHtd.wbsK;oDvHItM.wpkpDRwDvk;to;w[;*DRb.&lt;AvlRuhReD&gt;'GJ.vDRIAvlR0JvXusJxH.ySR'Drg0RrHtvD&gt;&lt;zDrhRzDxH&lt;rRrhRwd&gt;rhRpk.'D;rhRwd&gt;yHmtvD&gt;&lt;'D;rhrh&gt;eD&gt;'GJ.wcDrk&gt;v&gt;0JvXpDRwDvk;u[JvlRtDRtCdymwh&gt;w&gt;tD.wpJ;wpJ;ud;ylR'J;vDRIAAt0JrHb.vXeD&gt;'GJ.'Drg0RtvD&gt;wbsK;eRng'D;tD.w&gt;vXeD&gt;'GJ.ymwh&gt;M&gt;tDR&lt;AAb.q.z.qgtvD&gt;td.r;ck.,k&gt;uvmtCdrk&gt;qh.xD.b.vlRu'D0J'fM.woDb.woDvDRI </string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xmy-Sb-iRG">
+                                <rect key="frame" x="150" y="640" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="qX'D;obsK." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DCl-o1-4sL">
+                                <rect key="frame" x="0.0" y="27" width="375" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="38"/>
+                                <color key="textColor" red="0.98733974359999999" green="0.98733974359999999" blue="0.98733974359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.077802456919999999" green="0.7977159023" blue="0.78782242540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="NnF-ye-PUE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NrS-bk-K5Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1653.5999999999999" y="1472.1139430284859"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FG8-Ln-dal">
+            <objects>
+                <viewController storyboardIdentifier="page3" id="fR2-7b-48e" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qTQ-jT-5es">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="eFJ-Ve-kl6">
+                                <rect key="frame" x="16" y="97" width="343" height="571"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">A,Hm,Hm'D;w[gM.,D&gt;uG&gt;z.qg'D;rRto;vXRvXRtCd&lt;ArHwpd&gt;wvD&gt;0HR*JRqXxX.*DR*DR'D;vlR0JohweHRusXRwkRrk&gt;[gvDRM.xH.u'D;w&gt;rHtvD&gt;wylRM.vDRIAzJM.xH0JvXrh.tlth.td.'H;wpJ;'D;t0Jo;ckvXwbsDtHRucsK;eD&gt;'GJ.vDRIAtCdt0Jwtd.bSH;vXRb.'D;vlR0JvXmo;'fod;ucsK;M&gt;tw&gt;tJ. o;bdeD&gt;'JG. wcsK;twkRvXyD. vJ. ylR 'H;b.tcgM.vDRI ApDRwDvk;vlRobsd.'DeRngwkRrk&gt;uyDRxD.wpkwkRvXyD.vJ.uX&gt;cd.'D;xH.vXeD&gt;'GJ.tubD[;xD.w&amp;H;tcd.qlyD.vJ.cX.o;wcDvHvDRIA pDRwDvk;A0&gt;CDReD&gt;'GJ.&lt;AeD&gt;'GJ.wcDuG&gt;CDRpDRwDvk;vXw&gt;tJ.cH*RvXmtylRemouhw*Rr;ArRwohvXRb.IubDvJRw&gt;,HRxD.vXcdqlyD.vJ.cX.o;uU&gt;uU&gt;vDRI </string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="qX'D;obsK." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qMD-CT-k4b">
+                                <rect key="frame" x="114" y="26" width="147" height="40.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="38"/>
+                                <color key="textColor" red="0.98733974359999999" green="0.98733974359999999" blue="0.98733974359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.077802456919999999" green="0.7977159023" blue="0.78782242540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="keL-NB-dNW">
+                                <rect key="frame" x="166.5" y="640" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="GSd-Zy-kTP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ffd-OY-2P3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2333.5999999999999" y="1472.1139430284859"/>
+        </scene>
+        <!--Kunawlay-->
+        <scene sceneID="vci-lc-lR9">
+            <objects>
+                <viewController id="8zU-hJ-fAE" customClass="Kunawlay" customModule="UKaren" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G3c-VL-1hB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="r2z-NH-fIC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aoZ-4D-yTT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3183" y="2266"/>
+        </scene>
+        <!--Muyenpeh-->
+        <scene sceneID="idm-Yy-Wnj">
+            <objects>
+                <viewController id="g2b-eh-icg" customClass="Muyenpeh" customModule="UKaren" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="buW-xa-GXj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coming Soon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rvu-74-MtK">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="l1m-0d-zlo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="udx-X6-R9m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2241" y="2249"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dp0-I4-IXl">
+            <objects>
+                <viewController storyboardIdentifier="page4" id="gXH-g0-TkR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3zz-XY-2bm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="gHt-8G-RUw">
+                                <rect key="frame" x="16" y="101" width="343" height="566"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">pDRwDvk;td.wh&gt;zJubDoM'D;rRw&gt;wbsK;vgwkRtM&gt;ubDt vJ'D; 'd;xD.ubDvJRvlRu'D;eD&gt;'GJ.wogvDRI AwkRtwkRuD&gt;0&gt;cDxH.eD&gt;'JG. uG&gt;vDRw&gt;vXwX;z;xDwzsX.tzDcd.tCdrRwohu'D;b.&lt; tCdt0Jym vDR to;vXuuhRu'guhR vDR IA wcsK;t0JuhR 'H; b.'D; rRvdmeD&gt;'GJ.'ftHR &lt; ?cJtHR eydm ,cHw ohv XRb.&lt; Aoemuhv XcHvXvmerh&gt; e&gt;[lb .xd. wvh [HyShR vXe[H. tzcd.'D; [D. b.v&gt;w&gt;vX,*D&gt;wu&gt;h I/ rRvdm0J'fMm0HR'D; xD.ubD'D;uhRu'guhRqltxHtuD&gt;t[H.tCDvDRI 
+wkRrh&gt;pDRwDvk;uhRwkRvXt[H.M.ymzSd.oh.rk.vXrh.tlu tD.b.0JEH GeHREHGH eRt*D&gt; 0HR'GJG. xD. 0J' D;wkRt'GJ. xD. 0JyJ JSR xD. EGHoD woDM.&lt;A t 0Jup.EkmoHuH Gm to;vXtylR vDR IA zJ pDRwDvk;uwJmuwDR xD. to;'ftHRtzXrk&gt;vXuD&gt;0&gt;b;cDM.xd.wvhoh.wz.yORxD.vXeD&gt;
+'GJ.t[H.wX;zD cd.wkR eD&gt; 'GJG. td. wohw ub .'D; Cht cJ;G vXt0R&lt; AwbsCD 'dd; xD. ubD0HR wbsd.qlcd'fw&gt;[drd&gt;Ch&gt;tod;woDb.woD&lt; rk&gt;eRwpH;rk&gt;qgwpH;vXR b.&lt; zJuhR0JwkRxD.qlpDRwDvk;t[H.tcgxH.b.0JvXpDRwDvk;,lmCDR to;qlr h .tlu z;tylR M.vDR I </string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="21" name="Karen-Normal"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eUH-v5-MNt">
+                                <rect key="frame" x="128" y="632" width="119" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="qX'D;obsK." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="27x-Lg-TSU">
+                                <rect key="frame" x="114" y="24" width="147" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="38"/>
+                                <color key="textColor" red="0.98733974359999999" green="0.98733974359999999" blue="0.98733974359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.077802456919999999" green="0.7977159023" blue="0.78782242540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="M9k-3A-DZx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t5S-ld-HdY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1468" y="2247.5262368815593"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IBT-JE-2Gd">
+            <objects>
+                <viewController storyboardIdentifier="page5" id="xoC-pp-fKb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="trr-dz-yWl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="e65-pt-D7b">
+                                <rect key="frame" x="106" y="640" width="163" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="rBW-rk-X0H">
+                                <rect key="frame" x="16" y="97" width="343" height="571"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">AAtM.wbsDeD &gt;'GJ. pH. zD. tDR 'D;wbsDCD vD R bsK;uGHm0Jql rh. tlyl RcH*RvXmvDRIAySRvXw&gt;cd.w&gt;CXRwz.xH. xJGw &gt;rR to;tHR tCDt 0Joh.vJR u&amp;DvlR pXoHuGHm rh.tlM.vDRIAb.q.t0Joh.vlb.u'D;vX&amp;h.eD.odtCdrh.tluJRuysDRxD.'d.M&gt;tvD&gt;qlw&gt;zDcd.z;xDngwkRw&gt;rRuhRySRcH*Rto;orlwohvXRb.'D;oHCkm[gr&gt;Ckm&lt;AA[grlR[gr&gt;uGHmzJrh.tlz.qgtusgM.vDRIA0HRtvD&gt;cHw,HmwrD&gt;w&gt;vD&gt;zJeD&gt;'GJ.'D;pDRwDvk;'GJ.oHuGHmto;tvD&gt;M.[JrJxD.A0JvXqXwxl.'D;obsK.pgGxD.vXtvdRvDRIArRo;'fM.'D;w&gt;vXobsK.v.M.wkRcJtHRtd.rltd.uX'D;t'htA}w&gt;tv.tzD*hR '.vXqXtvdRM.vDRI Aw&gt;vXqXM.txHtedtg&lt; txHck.trJmng&lt; At qSl.xD.ow;'D; obsK.v.pgG xD. vXtvdR M&gt;*H&gt; M&gt;bg'D; pJbl; usXRrkqSlph&gt; uD;vDRIAow;'D;ySRrRtD.obsK.vXySRunDt usgud;ylR'J;ol.vDRqX'D ;ol.xD.obsK.v.'D;'k;pGgxD.0JvXtvdRvDRI </string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="21" name="Karen-Normal"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="qX'D;obsK." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cy8-1E-ItI">
+                                <rect key="frame" x="111" y="30" width="153" height="40.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="38"/>
+                                <color key="textColor" red="0.98733974359999999" green="0.98733974359999999" blue="0.98733974359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.077802456919999999" green="0.7977159023" blue="0.78782242540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="HE8-JC-V4G"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EGe-hJ-vIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-626.39999999999998" y="2247.5262368815593"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ns8-NV-zKQ">
+            <objects>
+                <viewController storyboardIdentifier="page6" id="CWJ-kt-oZk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="page6" id="iIp-rL-img">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XVs-yP-yi5">
+                                <rect key="frame" x="167" y="638" width="41" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="w&gt;wJtHRuwX&gt;'.zJtHRvDR" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pNf-aW-PgG">
+                                <rect key="frame" x="16" y="168" width="343" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="70"/>
+                                <color key="textColor" red="0.98733974359999999" green="0.98733974359999999" blue="0.98733974359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.077802456919999999" green="0.7977159023" blue="0.78782242540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Gm6-DD-01X"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pvo-BV-2P0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="244" y="2247.5262368815593"/>
         </scene>
         <!--Item-->
-        <scene sceneID="ghu-0I-MAH">
+        <scene sceneID="Fry-bg-3hm">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vzs-33-oG3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SL8-tg-8eG" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="E7G-ju-HY1"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="H8X-v2-a7m" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="SlZ-Cq-ieL"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="piq-Rs-aNZ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="idk-MX-Ha8">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="vgJ-sb-7bL" kind="relationship" relationship="rootViewController" id="2Fl-gW-lUl"/>
+                        <segue destination="cnR-2O-LCy" kind="relationship" relationship="rootViewController" id="eQG-dh-V0E"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="whT-0i-eRK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-772" y="-269.41529235382313"/>
+            <point key="canvasLocation" x="-892" y="-230"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="agU-V7-f2O">
+            <objects>
+                <viewController storyboardIdentifier="pge1" id="7nZ-ey-kL0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jo1-BQ-Y7R">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="xPK-Oh-dTf">
+                                <rect key="frame" x="16" y="98" width="343" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="unDrk.tw&gt;olw&gt;ySdRrRwh&gt;to;vDRvd.vDRv;vXtylRuGHm te H .wu,RbJs.zJ,dRpDR yR,J&gt;*Rw*R&lt; vXtrh&gt;zguFL;v;uyDF Xw&gt;tpdRM.vDRI A">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="wbsDM.w&gt;rRto;vXunDupX&gt;cd.zdo0Dtd.wzsX.&lt; Atd.vX uD&gt;rk&gt;}wDRwuyRM.vDRI">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hBb-Tg-P2c">
+                                <rect key="frame" x="150" y="646" width="75" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="unDrk.zdrk&gt;,JRzJ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qY7-PR-qLA">
+                                <rect key="frame" x="16" y="20" width="343" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Karen-Normal" family="KNU" pointSize="38"/>
+                                <color key="textColor" red="0.98733974359999999" green="0.98733974359999999" blue="0.98733974359999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.077802456919999999" green="0.7977159023" blue="0.78782242540000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="qy8-zY-yXg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cU9-tD-SOs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3183" y="3922"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aeE-39-1os">
+            <objects>
+                <viewController storyboardIdentifier="pge2" id="l60-NU-285" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UZN-1h-ABL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" id="Udb-32-3My">
+                                <rect key="frame" x="16" y="98" width="343" height="569"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">unDrk.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="24" name="Karen-Normal"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="22" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BXV-rw-MoU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2450.4000000000001" y="3922.4887556221893"/>
         </scene>
     </scenes>
     <resources>
+        <image name="HS.png" width="830" height="564"/>
+        <image name="K&amp;N.png" width="612" height="499"/>
+        <image name="MYP.png" width="438" height="416"/>
         <image name="Putawmawlu.png" width="3219" height="2419"/>
     </resources>
 </document>
