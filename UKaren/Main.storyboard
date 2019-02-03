@@ -49,11 +49,11 @@
             </objects>
             <point key="canvasLocation" x="-3224" y="-268.06596701649175"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Proverb-->
         <scene sceneID="mKb-Yu-IPz">
             <objects>
                 <navigationController id="HpD-kx-O6A" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="featured" id="r7j-5L-eLI"/>
+                    <tabBarItem key="tabBarItem" title="Proverb" image="bookmark" id="r7j-5L-eLI"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ceu-kq-Jwd">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -288,11 +288,11 @@
             </objects>
             <point key="canvasLocation" x="-2928.639999999999" y="-1151.3283358320841"/>
         </scene>
-        <!--Item-->
+        <!--Poem-->
         <scene sceneID="xlG-tg-ZMC">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MRV-Ou-wIy" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ivF-qZ-8fM"/>
+                    <tabBarItem key="tabBarItem" title="Poem" image="book" id="ivF-qZ-8fM"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="rT9-uZ-gME"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="it5-C0-hay">
@@ -1190,11 +1190,11 @@ wkRrh&gt;pDRwDvk;uhRwkRvXt[H.M.ymzSd.oh.rk.vXrh.tlu tD.b.0JEH GeHREHGH eRt*D&gt;
             </objects>
             <point key="canvasLocation" x="244" y="2247.5262368815593"/>
         </scene>
-        <!--Item-->
+        <!--Forklore-->
         <scene sceneID="Fry-bg-3hm">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="H8X-v2-a7m" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="SlZ-Cq-ieL"/>
+                    <tabBarItem key="tabBarItem" title="Forklore" image="literature" id="SlZ-Cq-ieL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="idk-MX-Ha8">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -1325,5 +1325,8 @@ Cg
         <image name="K&amp;N.png" width="612" height="499"/>
         <image name="MYP.png" width="438" height="416"/>
         <image name="Putawmawlu.png" width="3219" height="2419"/>
+        <image name="book" width="30" height="30"/>
+        <image name="bookmark" width="30" height="30"/>
+        <image name="literature" width="30" height="30"/>
     </resources>
 </document>
