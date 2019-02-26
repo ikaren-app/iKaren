@@ -32,9 +32,9 @@
 		9D35C0A921EE283A009C23E5 /* HS.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D35C0A821EE2839009C23E5 /* HS.png */; };
 		9D35C0AB21EE28D7009C23E5 /* HserTheblut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D35C0AA21EE28D7009C23E5 /* HserTheblut.swift */; };
 		9D35C0AD21EE28EC009C23E5 /* Putamawlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D35C0AC21EE28EC009C23E5 /* Putamawlay.swift */; };
+		9D43BBCF221F60CF00278DFC /* knu.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9D43BBCE221F60CF00278DFC /* knu.TTF */; };
 		9D52793C1E0E04FC001512BD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D52793B1E0E04FC001512BD /* Social.framework */; };
 		9D79AB682217F7C300F6B4C2 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D79AB672217F7C300F6B4C2 /* WebView.swift */; };
-		9D79AB6A2217F8E100F6B4C2 /* knu.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 9D79AB692217F8E100F6B4C2 /* knu.TTF */; };
 		9D79AB6C2217F90A00F6B4C2 /* FrameSelected2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D79AB6B2217F90A00F6B4C2 /* FrameSelected2.png */; };
 		9D929D4A1DDC185400A2CD13 /* qwe21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D929D451DDC185400A2CD13 /* qwe21.jpg */; };
 		9D929D4C1DDC185400A2CD13 /* qwe23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D929D471DDC185400A2CD13 /* qwe23.jpg */; };
@@ -139,6 +139,7 @@
 		9DD7C8E91E1CA24900B4B0C7 /* qwe38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DD7C8DA1E1CA24900B4B0C7 /* qwe38.jpg */; };
 		9DD7C8EA1E1CA24900B4B0C7 /* qwe39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DD7C8DB1E1CA24900B4B0C7 /* qwe39.jpg */; };
 		9DD7C8EB1E1CA24900B4B0C7 /* qwe40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DD7C8DC1E1CA24900B4B0C7 /* qwe40.jpg */; };
+		9DEAA07A221A637100165BC2 /* Mountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEAA079221A637100165BC2 /* Mountain.swift */; };
 		9DF641D01DD796DC009457A6 /* qwe17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DF641CF1DD796DC009457A6 /* qwe17.jpg */; };
 		9DF641D21DD796E5009457A6 /* qwe16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DF641D11DD796E5009457A6 /* qwe16.jpg */; };
 		9DF641D61DD796F0009457A6 /* qwe18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DF641D31DD796F0009457A6 /* qwe18.jpg */; };
@@ -194,9 +195,9 @@
 		9D35C0A821EE2839009C23E5 /* HS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HS.png; sourceTree = "<group>"; };
 		9D35C0AA21EE28D7009C23E5 /* HserTheblut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HserTheblut.swift; sourceTree = "<group>"; };
 		9D35C0AC21EE28EC009C23E5 /* Putamawlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Putamawlay.swift; sourceTree = "<group>"; };
+		9D43BBCE221F60CF00278DFC /* knu.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = knu.TTF; path = ../../MyWeb/assets/knu.TTF; sourceTree = "<group>"; };
 		9D52793B1E0E04FC001512BD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		9D79AB672217F7C300F6B4C2 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		9D79AB692217F8E100F6B4C2 /* knu.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = knu.TTF; sourceTree = "<group>"; };
 		9D79AB6B2217F90A00F6B4C2 /* FrameSelected2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrameSelected2.png; sourceTree = "<group>"; };
 		9D929D451DDC185400A2CD13 /* qwe21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qwe21.jpg; sourceTree = "<group>"; };
 		9D929D471DDC185400A2CD13 /* qwe23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qwe23.jpg; sourceTree = "<group>"; };
@@ -301,6 +302,7 @@
 		9DD7C8DA1E1CA24900B4B0C7 /* qwe38.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qwe38.jpg; sourceTree = "<group>"; };
 		9DD7C8DB1E1CA24900B4B0C7 /* qwe39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qwe39.jpg; sourceTree = "<group>"; };
 		9DD7C8DC1E1CA24900B4B0C7 /* qwe40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qwe40.jpg; sourceTree = "<group>"; };
+		9DEAA079221A637100165BC2 /* Mountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mountain.swift; sourceTree = "<group>"; };
 		9DF641CF1DD796DC009457A6 /* qwe17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qwe17.jpg; sourceTree = "<group>"; };
 		9DF641D11DD796E5009457A6 /* qwe16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qwe16.jpg; sourceTree = "<group>"; };
 		9DF641D31DD796F0009457A6 /* qwe18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = qwe18.jpg; sourceTree = "<group>"; };
@@ -346,6 +348,7 @@
 				9D35C0AC21EE28EC009C23E5 /* Putamawlay.swift */,
 				9DB6F46F2200FC50008CC8E3 /* Kunawlay.swift */,
 				9DB6F4712200FC5F008CC8E3 /* Muyenpeh.swift */,
+				9DEAA079221A637100165BC2 /* Mountain.swift */,
 				9D35C09D21EE1F23009C23E5 /* ViewController.swift */,
 				29ADFF121A26E91200B66C6C /* UKaren */,
 				29ADFF2C1A26E91200B66C6C /* UKarenTests */,
@@ -540,7 +543,7 @@
 				9D35C0A021EE212E009C23E5 /* MYP.png */,
 				9D35C0A821EE2839009C23E5 /* HS.png */,
 				9D35C0A121EE212E009C23E5 /* Putawmawlu.png */,
-				9D79AB692217F8E100F6B4C2 /* knu.TTF */,
+				9D43BBCE221F60CF00278DFC /* knu.TTF */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -674,6 +677,7 @@
 				9DA0D3FC1DD4E91E00981FFA /* qwe0.jpg in Resources */,
 				9DCC330C1E721C42006207DB /* qwe70.jpg in Resources */,
 				9DCC32FF1E721C42006207DB /* qwe57.jpg in Resources */,
+				9D43BBCF221F60CF00278DFC /* knu.TTF in Resources */,
 				9D3542281DDD48DB007DEE97 /* Main.storyboard in Resources */,
 				9DA0D3FF1DD4E91E00981FFA /* qwe3.jpg in Resources */,
 				9DCC330D1E721C42006207DB /* qwe71.jpg in Resources */,
@@ -711,7 +715,6 @@
 				9DA0D4081DD4E91E00981FFA /* qwe12.jpg in Resources */,
 				9DCC330E1E721C42006207DB /* qwe72.jpg in Resources */,
 				9DA0D4061DD4E91E00981FFA /* qwe10.jpg in Resources */,
-				9D79AB6A2217F8E100F6B4C2 /* knu.TTF in Resources */,
 				29AA5B1D1AC88BB7000329F7 /* fb.png in Resources */,
 				9DF641D21DD796E5009457A6 /* qwe16.jpg in Resources */,
 				9DCC32FD1E721C42006207DB /* qwe55.jpg in Resources */,
@@ -781,6 +784,7 @@
 				9D35C09E21EE1F23009C23E5 /* ViewController.swift in Sources */,
 				29ADFF191A26E91200B66C6C /* AppDelegate.m in Sources */,
 				9D1495C21DB2F5BE00F5570E /* MyImageViewController.m in Sources */,
+				9DEAA07A221A637100165BC2 /* Mountain.swift in Sources */,
 				29ADFF3B1A26E9EA00B66C6C /* TableViewController.m in Sources */,
 				29ADFF161A26E91200B66C6C /* main.m in Sources */,
 				9D79AB682217F7C300F6B4C2 /* WebView.swift in Sources */,

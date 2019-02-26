@@ -10,8 +10,8 @@
 #import "DetailViewController.h"
 #import "Karen.h"
 
-@implementation TableViewController
 
+@implementation TableViewController
 
 @synthesize allTableData;
 @synthesize filteredTableData;
@@ -39,12 +39,446 @@
 {
     [super viewDidLoad];
         searchBar.delegate = (id)self;
-    //self.searchBar.barTintColor = [UIColor colorWithRed:0.23 green:0.10 blue:0.3 alpha:1.0];
+    self.searchBar.barTintColor = [UIColor colorWithRed:0.87 green:0.38 blue:0.00 alpha:1.0];
   self.view.backgroundColor = [UIColor  colorWithRed:0.13 green:0.10 blue:0.03 alpha:1.0];
-    self.searchBar.backgroundColor = [UIColor  colorWithRed:0.13 green:0.10 blue:0.03 alpha:1.0];
-
+    //self.searchBar.backgroundColor = [UIColor  colorWithRed:0.13 green:0.10 blue:0.03 alpha:1.0];
+    
     
     allTableData = [[NSMutableArray alloc] initWithObjects:
+                    
+                    [[Karen alloc] initWithName:@"abdominal wall abscess"   andDescription:@"[XzXt'l.'XzHxD." detail:@"" ],
+                    
+                     [[Karen alloc] initWithName:@"ablepsia"   andDescription:@"rJmcsHwxH.w>" detail:@"" ],
+                    
+                     [[Karen alloc] initWithName:@"abortion"   andDescription:@"[k;vDRzSH.< A[XzX[;*DR< AySR[k;[;*DRA(vDRwJm)" detail:@"-noun" ],
+                    
+                     [[Karen alloc] initWithName:@"abrasion"   andDescription:@"vDRobsK;" detail:@"-noun" ],
+                    
+                     [[Karen alloc] initWithName:@"abscess"   andDescription:@"w>0h" detail:@"" ],
+                    
+                     [[Karen alloc] initWithName:@"AC = Beforemeal"   andDescription:@"wcsK;tD.w>tcg" detail:@"" ],
+                    
+                     [[Karen alloc] initWithName:@"acidosis"   andDescription:@"w>pk.xD.rh>vXtJ;ph;tgxD.tCd" detail:@"" ],
+                    
+                     [[Karen alloc] initWithName:@"acute abdomen"   andDescription:@"[XzXqgowl>uvm" detail:@"" ],
+                    
+                     [[Karen alloc] initWithName:@"pain acute appendicitis"   andDescription:@"ySHmz;'hnd;owl>uvm" detail:@"" ],
+                    
+                     [[Karen alloc] initWithName:@"acute cystitis"   andDescription:@"qH.qXnd;xD.owl>uvm" detail:@"" ],
+                    
+                     [[Karen alloc] initWithName:@"Acute pyeloneph-ritis"   andDescription:@"uvh>nd;owl>uvm" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"acute renal failure"   andDescription:@"uvh>[;*DRuGHmowl>uvm'D;uvh>rRw>wM>vXRb." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"airway"   andDescription:@"uvHRusdR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"alcoholichepititis(hepatitis A)"   andDescription:@"tDoH;tgwvXtCdol.nd;w>qguJxD." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"alcoholism"   andDescription:@"w>pJoH;< w>pJbl;oH;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"ambubag"   andDescription:@"uvHR'X(w>yD;w>vDvX'k;ogxD.ogvDRw>)" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"amenorrhoea"   andDescription:@"oGH.vDRr>" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"amoebic brain abscess"   andDescription:@"trHbgcd.Elm'Xz" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"amoebic dysentery"   andDescription:@"trHbg[XzX0HmwuH" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"amoebic hepatitis"   andDescription:@"trHbgol.nd;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"amoebic kidney abscess"   andDescription:@"trHbguvh>'XzH" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"amoebic liver abcess"   andDescription:@"trHbgol.0hw>qg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"amoebic lung abscess"   andDescription:@"trHbgyod.'Xz" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"amoebic pericard--ialabscess"   andDescription:@"trHbgtCdo;zsX.tovD'XzH" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"amoebic spleen abscess"   andDescription:@"trHbgurD'Xz" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"ampoule (Amp)"   andDescription:@"uoH.qJ;yvDzdvXb.bl;tudm" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"amputee"   andDescription:@"ySRpkwlmcD.wlm" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"anaphylactic reaction"   andDescription:@"w>'db.vXuoH.wb.tC" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"anatomy"   andDescription:@"eD>cduh>*DRyDng" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"anemia"   andDescription:@"oGH.*H>p>bgp>w>qg (oGH.*DRpSR)" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"anesthesiologist"   andDescription:@"uoH.o;oyhRtuoH.o&." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"anesthetize"   andDescription:@"w>rRo;oyhR§w>[h.uoH.o;oyhR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"anoscope"   andDescription:@"w>yD;w>vDuG>cHylR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"anoxia"   andDescription:@"tD;pH.uFX>pSR§wvXySJR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"antemortem"   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"antenatal"   andDescription:@"wcsK;td.zsJ.xD." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"anterror fontanelle"   andDescription:@"cd.xHvXtrJmng" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"anvil bone"   andDescription:@"e>C" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"appendicitis"   andDescription:@"ySHmz;'hnd;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"appendicular mass"   andDescription:@"ySHmz;'hCduJxD.w>ud.vd." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"appendix abcess"   andDescription:@"ySHmz;'h0hxD." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"arm bone"   andDescription:@"pktC" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"armpit"   andDescription:@"wHmvm" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"arteriosclerosis"   andDescription:@"oGH.usdRylRw>todwz.wHmwXRo;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"arthritis"   andDescription:@"CHtqXwz.nd;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"ascaris pneumonia"   andDescription:@"yod.nd;vXxd;uvJmtCd" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"ascites"   andDescription:@"uzdxH" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"asphyxia"   andDescription:@"wogxD. (zdo.td.zsJ.cgvDRtk;)" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"ATD = After Test Dose"   andDescription:@"rRuG>tDR0HRr;qJ;tDR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"autotherapy"   andDescription:@"w>,gbsgvDRuhRo;<w>bsguhR'.Aw>'.0" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"B.W = Body weight"   andDescription:@"eD>up>tw,X>CX" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"B/W = Bi-weekly"   andDescription:@"wEGHcHbsD" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"bacillary dysentery"   andDescription:@"bJ;pX.v.&H[XzX0HmwuH" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"bacteriologist"   andDescription:@"ySRul.ohul.b.vXbJ;xH&H,gtC>wuyR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"BCG (BacilleCalmette Guerin)"   andDescription:@"uoH.'Do'Xyod.w>qg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"blood stream spread"   andDescription:@"w>qgC>&RvDRto;cDzsdoGH.usdR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"bile"   andDescription:@"o'H" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"black water fever"   andDescription:@"qH.qgvDRvXtol (qH.qgvDRvXtoGH.)< w>qgvdRud>qH.o" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"blood transfusion"   andDescription:@"w>oGDw>oGH.A w>,goGDoGH." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@" blood vessel"   andDescription:@"oGH.usdRz" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"bluish"   andDescription:@"" detail:@"xD.vk;xD.vg" ],
+                    
+                    [[Karen alloc] initWithName:@"bronchiolitis"   andDescription:@"yod.usdRtH.zdwz.nd;<Ayod.usdRqH;nd;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@" bronchitis"   andDescription:@"uvHRusdRnd;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"burst appendix"   andDescription:@"ySHmz;'hoh.z;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"Ca-Penis Ulcer"   andDescription:@"cJpX.ylRvD>vXxh.tvdR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"caesarean section"   andDescription:@"uGJ;td.zsJ.z" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"calcium"   andDescription:@"cJvfpH.,X.§xl.tpD" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"Ca-Liver (Carcin- -omaLiver)"   andDescription:@"ol.cJpX." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"cancrum oris"   andDescription:@"ylRvD>xD.vXudmylR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"capsule (Cap)"   andDescription:@"uoH.zsX.td.'D;tzsD.< AuoH.zsX.z;x" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"car sickness"   andDescription:@"rlRodvh." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"Cardio Pulmonary Resuscitation"   andDescription:@"w>rRu'guhR'fod;o;zsX.'D;yod.urRuhRw>t*D>" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"cardiovascular disease"   andDescription:@"w>qgvXtb.C;'D;o;zsX.oGH.usdR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"carotid"   andDescription:@"oGH.usdRz;'d.vXudmbdtvdR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"catheterisation"   andDescription:@"w>oGDyDRbdvXqH.usdRb" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"cerebral haemorrhage"   andDescription:@"cd.ElmoGH.usdRxl.zsduGHmA(cd.ElmoGH.usdRwJm)" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"cerebral malaria"   andDescription:@"w>n.*d>C>EkmvDRcd.ElmylR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"cerebral thrombosis"   andDescription:@"cd.ElmoGH.usdRwHmwXRuGHm" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"cerebro vascular accident"   andDescription:@"cd.ElmoGH.usdRb.'dowl>uvm" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"cervical lymphadenitis"   andDescription:@"udmtcsHwz.nd;xD." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"chemical poisoning"   andDescription:@"*mtpk.tys>wz." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"cholecystitis"   andDescription:@"o’HxX.nd;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"chronic gout"   andDescription:@"tqXwz.nd;xD.cJtHRcJtHR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"circulatory failure"   andDescription:@"oGH.vJR}wH;o;[;*DR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"cirrhosis of liver"   andDescription:@"ol.Chx" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"clavicle"   andDescription:@"[d;CH< A[d;uh.CH<A [d;tC" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"colitis"   andDescription:@"ySHmnd;§ySHmz;'d.nd;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"collar bone"   andDescription:@"[d;uh.C" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"colostrum"   andDescription:@"Ek>xHwuGHxk;< AEk>xHxD.oD" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"common cold"   andDescription:@"w>ck.b." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"complete rest"   andDescription:@"b.td.bSH;vXvXySJRySJR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"complications"   andDescription:@"w>qgydmxGJwz." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"constipation diarrhoea"   andDescription:@"w>[XzXusXR’D;v" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"contaminated"   andDescription:@"w>rRoHw>Cl;w>C>" detail:@"-adjective" ],
+                    
+                    [[Karen alloc] initWithName:@"contractions"   andDescription:@"w>o;ql" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"contraindication"   andDescription:@"uoH.tw>}wD" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"cord clamping"   andDescription:@"w>wHmCm'hysHR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"cord prolapse"   andDescription:@"'hysHR[JvDRvXtrJmng" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"cramp"   andDescription:@",k>xD." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"cranial nerve"   andDescription:@"cd.ElmeXmxl.A (cd.CHtxl.)" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"croup"   andDescription:@"uvk>tyDRnd;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"cystoscope"   andDescription:@"w>yD;w>vDvXySRrRuG>qH.usdR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"daily wounddressing"   andDescription:@"w>rRuqSD'D;yJvDRw>ylRvD>ud;eHR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"dengue fever"   andDescription:@"w>n.*d>oGH.[;xD.<w>vdRud>oGH.usdRzdwJm" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"devided dose"   andDescription:@"eDRz;'D;tbsDwz." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"diaphragm muscle"   andDescription:@"o;egyS>'D;[XzXn.xl." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"diphtheria"   andDescription:@"udm,l>bdnd;w>qg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"disinfect"   andDescription:@"w>rRoHw>tC>" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"drowsiness"   andDescription:@"w>rd.rHo;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"Duodenal Ulcer (DU)"   andDescription:@"ySHmcd.xd;w>qg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"dysmenorrhoea"   andDescription:@"vk>v>[Jqg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"dysphemia"   andDescription:@"wJw>xk;x;< AwJw>bk;wm" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"dyspnea"   andDescription:@"uoguDcJ" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"dysuria"   andDescription:@"qH.qgqg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"ear drum"   andDescription:@"e>vh>A (e>uvh>)" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"eclampsia"   andDescription:@"'XvD>oGH.pk.xD." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"eczema"   andDescription:@"cl.w>qg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"edema"   andDescription:@"ubXxD.< AubkxD." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"egg (human)"   andDescription:@"(ySRunD) AtcsH" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"elephantiasis"   andDescription:@"w>qguqDcD." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"embryo"   andDescription:@"zdo.wcsK;uJxD.<A zdo.ud.vd." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"emesis basin"   andDescription:@"w>xl;ysJmt'X" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"emphysema"   andDescription:@"yod.uvHRxX.zdylRtzHwz.[JuJxD.(tovDuql;)<A xHEkmvDRqlyod.tovDylR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"encephalitis syndrome"   andDescription:@"cd.Elmnd;tyeD.wz." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"enteric fever"   andDescription:@"w>vdRud>ySHmnd;w>qg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"episiotomy"   andDescription:@"w>wHmvJ>xD.td.zsJ.zdcd.xd;" detail:@"" ],
+                    [[Karen alloc] initWithName:@"epistaxis"   andDescription:@"eg'hoGH." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"examinati on onchest"   andDescription:@"w>orHord;uG>o;egyS>" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"eye sockets"   andDescription:@"rJmcsHzsX.td.tvD>A (rJmcsHCHutd)" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"femoral"   andDescription:@"uH.'k.uql;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"family doctor "   andDescription:@"[H.zdCDzduoH.o&." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"fetoscope"   andDescription:@"rJmuvRyDRvXtuG>zdo." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"fibroids"   andDescription:@",k>n.,JR< Aw>n.vXtd.'D;t,JR<tvkR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"filariasis (elephantiasis)"   andDescription:@"uqDcD.w>qg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"fistula"   andDescription:@"w>qgusdR<A w>ylRvD>tusdR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"food poisoning"   andDescription:@"w>tD.tpk." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"funny bone"   andDescription:@"pkeX.c" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"gall stone"   andDescription:@"vX>td.vXo'HtylR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"Gastric Ulcer (GU)"   andDescription:@"uzkw>qg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"gonorrhoea"   andDescription:@"ued.w>qg<A CJoJw>qg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"gout"   andDescription:@"cD.rk>tqXnd;w>qg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"Gravida and Para"   andDescription:@"ydmrk.'XySJRbsD'D;td.zsJ.ySJRbs" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"gynaecologist"   andDescription:@"uoH.o&.b.C;ydmrk.ydmrXRw>qg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"haematamesis"   andDescription:@"bSd;vDRvXoGH." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"haematology"   andDescription:@"w>ul.ohb.C;oGH." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"haemoglobin"   andDescription:@"[H.rd.uvd.bh.<A oGH.*DRpJv" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"haemoptysis"   andDescription:@"ul;vDR’D;toGH." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"haemorrhage"   andDescription:@"1IA oGH.CD>A 2IA oGH.vDRtg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"haemorrhoids"   andDescription:@"th.uD>" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"head lice"   andDescription:@"cd.ol." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hammer bone"   andDescription:@"e>CHvXwD>e>uvh>" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"heart beat"   andDescription:@"o;pH." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hematoma"   andDescription:@"oGH.'k;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hemorrhage"   andDescription:@"toGH.,GRvDRtgtg*D>*D>" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hemothorax"   andDescription:@"oGH.'XwtXvXo;egyS>" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hepantomegaly"   andDescription:@"ol.'d.wvX" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hepatitis B"   andDescription:@"ol.nd;w>qg " detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"herpes"   andDescription:@"w>,k>th.xD." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"herpetic genitalia"   andDescription:@"rk.cGguh>*DRtvdRw>,k>th." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"high level disinfected"   andDescription:@"w>rRoHw>qgtC>vXtywD>x" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hip bone"   andDescription:@",D>wJmcd.C" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"Hrly = hourly"   andDescription:@"we.&H.wbs" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"HIV = human immunodeficiency virus"   andDescription:@"ySRunDeD>cd*H>bgw>'Do'XpSRvDRw>qg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hydrocephalus"   andDescription:@"xHEkmvXcd.ylR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hyperemesis gravidarum"   andDescription:@"ySR'XxD.zdySRbSD;tgwvX" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hypermenorehea"   andDescription:@"vk>v>[Jtg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hypertesion"   andDescription:@"oGH.*H>qD.tgw>qg" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hypoglycemia"   andDescription:@"oGH.usdRw>qXpSR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hypothermia"   andDescription:@"w>rRpSRvDReD>up>w>ud>" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hysterectomy"   andDescription:@"w>uGJ;xk;xD.'XvD>" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"hysteria"   andDescription:@"(o;w>qgwuvkm)A uJxD.tgvXySRo;p><A vDRqD'.w>ydmrk.zdwz." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"I.T = Intrathecal"   andDescription:@"qJ;uoH.qlysd>CHuql;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"I/D = IntraDermal"   andDescription:@"qJ;uoH.vXzH;bh.ylR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"ileum"   andDescription:@"ySHmtuGDR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"IM = Intra"   andDescription:@"qJ;uoH.vX,k>n." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"muscular injection"   andDescription:@"(qJ;uoH.vXtn.usg)" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"immunisation"   andDescription:@"qJ;uoH.'Do'X" detail:@"-noun" ],
+                    
+                    [[Karen alloc] initWithName:@"incisor tooth"   andDescription:@"rJeHR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"induce labor"   andDescription:@"'k;td.zsJ.qd" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"infertile"   andDescription:@"w>wlmzd" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"inhaling"   andDescription:@"w>ogEkmuvHR" detail:@"-verb" ],
+                    
+                    [[Karen alloc] initWithName:@"intestinal"   andDescription:@"b.C;'D;ySHm" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"Intra-Dermalinjection (ID)"   andDescription:@"qJ;uoH.vXzH;bh.zDvm" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"Intra-Venousinjection (IV)"   andDescription:@"qJ;uoH.vXoGH.usdR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"intrauterine"   andDescription:@"'XvD>tudylR" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"intussuception"   andDescription:@"ySHmu>csH;Ekmto;" detail:@"-noun" ],
+                    
+                    [[Karen alloc] initWithName:@"kwashiokor"   andDescription:@"_zd.xH(ef)vDRo-xK;'D;ubXxD." detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"lactating period"   andDescription:@"xk;xD.Ek>xHtqXuwD>" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@"larynx"   andDescription:@"uvHRusdRcd.xd;" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    [[Karen alloc] initWithName:@""   andDescription:@"" detail:@"" ],
+                    
+                    
+                    
                     [[Karen alloc] initWithName:@"age"   andDescription:@"o;teH.tvg" detail:@"-noun" ],
                     
                     [[Karen alloc] initWithName:@"agency"   andDescription:@"1IA cX.p;w>rRA 2I AcX.p;u&X" detail:@"-noun"],
@@ -615,10 +1049,8 @@
                     [[Karen alloc] initWithName:@"ability  "   andDescription:@"w>ohw>b.I t'd<etd.'D;w>ohw>b.vXw>od.vdvHm" detail:@"-noun" ],
                     [[Karen alloc] initWithName:@"able  "   andDescription:@"uJ<A oh<A vXttd.'D;*H>bg<A wRv.vXurRw>t*D>" detail:@"-adjective"],
                     [[Karen alloc] initWithName:@"abolish  "   andDescription:@"rR[;*DRuGHm< rRuwX>uGHm" detail:@"-verb"],
-                    [[Karen alloc] initWithName:@"abortion  "   andDescription:@"[k;[;*DR< w>zdvDRvl;" detail:@"-noun"],
                     [[Karen alloc] initWithName:@"about  "   andDescription:@"1IA C.C. 2IA b.C;'D;" detail:@"-preposition" ],
                     [[Karen alloc] initWithName:@"above  "   andDescription:@"1I At'Dcd.<A tzDcd. A2I A(upDR)xD.xDe‹>'H;" detail:@"-preposition" ],
-                    [[Karen alloc] initWithName:@"abrasion  "   andDescription:@"vDRobsL" detail:@"-noun" ],
                     [[Karen alloc] initWithName:@"abroad  "   andDescription:@"vDRobsL" detail:@"-adverb" ],
                     [[Karen alloc] initWithName:@"abrupt  "   andDescription:@"owl>uvm" detail:@"-adjective"],
                     [[Karen alloc] initWithName:@"abscess  "   andDescription:@"w>0h" detail:@"-adjective"],
@@ -3027,7 +3459,7 @@
                     [[Karen alloc] initWithName:@"hoodlum"   andDescription:@"ySRrRur.w>od.w>oD" detail:@"-noun" ],
                     [[Karen alloc] initWithName:@"hoof"   andDescription:@"cD.rh.<A q.zduD>zdvXtcD.td.vGH>cDtcD.rh." detail:@"-noun" ],
                     [[Karen alloc] initWithName:@"hook"   andDescription:@"eD.uG;<A x;uG;<A wcGJue." detail:@"-noun" ],
-                    [[Karen alloc] initWithName:@"hookworm"   andDescription:@"xd;uvJmwcGJ" detail:@"-noun" ],
+                    [[Karen alloc] initWithName:@"hook worm"   andDescription:@"xd;uvJmwcGJ>Ax;bs;xD;uvJm" detail:@"-noun" ],
                     [[Karen alloc] initWithName:@"hoop"   andDescription:@"x;uGDRCmw>" detail:@"-noun" ],
                     [[Karen alloc] initWithName:@"hoot"   andDescription:@"1IA 'dutdud; A2IA rRoD.yDRtl±lR<a rRoD.yHyDR" detail:@"-verb" ],
                     [[Karen alloc] initWithName:@"hop"   andDescription:@"pH.<A pH.wusJ>" detail:@"-verb" ],
@@ -6863,6 +7295,8 @@
     else
         word = [allTableData objectAtIndex:indexPath.row];
     
+   
+    
     cell.detailTextLabel.text = word.detail;
     cell.textLabel.text = word.name;
     cell.textLabel.textColor = [UIColor whiteColor];
@@ -6952,6 +7386,7 @@
 }
 
 
+
 - (IBAction)goToSearch:(id)sender
 {
     // If you're worried that your users might not catch on to the fact that a search bar is available if they scroll to reveal it, a search icon will help them
@@ -6960,5 +7395,49 @@
 }
 
 
+/*
+- (void)updateSearchResultsForSearchController:(nonnull UISearchController *)searchController {
+    <#code#>
+}
 
+- (void)encodeWithCoder:(nonnull NSCoder *)aCoder {
+    <#code#>
+}
+
+- (void)traitCollectionDidChange:(nullable UITraitCollection *)previousTraitCollection {
+    <#code#>
+}
+
+- (void)preferredContentSizeDidChangeForChildContentContainer:(nonnull id<UIContentContainer>)container {
+    <#code#>
+}
+
+//- (CGSize)sizeForChildContentContainer:(nonnull id<UIContentContainer>)container withParentContainerSize:(CGSize)parentSize {}
+
+- (void)systemLayoutFittingSizeDidChangeForChildContentContainer:(nonnull id<UIContentContainer>)container {
+    <#code#>
+}
+
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(nonnull id<UIViewControllerTransitionCoordinator>)coordinator {
+    <#code#>
+}
+
+- (void)willTransitionToTraitCollection:(nonnull UITraitCollection *)newCollection withTransitionCoordinator:(nonnull id<UIViewControllerTransitionCoordinator>)coordinator {
+    <#code#>
+}
+
+- (void)didUpdateFocusInContext:(nonnull UIFocusUpdateContext *)context withAnimationCoordinator:(nonnull UIFocusAnimationCoordinator *)coordinator {
+    <#code#>
+}
+
+- (void)setNeedsFocusUpdate {
+    <#code#>
+}
+
+//- (BOOL)shouldUpdateFocusInContext:(nonnull UIFocusUpdateContext *)context {}
+
+- (void)updateFocusIfNeeded {
+    <#code#>
+}
+*/
 @end

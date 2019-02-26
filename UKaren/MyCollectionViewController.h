@@ -11,7 +11,4 @@
 @interface MyCollectionViewController : UICollectionViewController
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *shareButton;
 - (IBAction)shareButtonTouched:(id)sender;
-
-
-
 @end
