@@ -17,10 +17,11 @@ class Mountain: UIPageViewController, UIPageViewControllerDataSource {
         let p3 = sb.instantiateViewController(withIdentifier: "pa3")
         let p4 = sb.instantiateViewController(withIdentifier: "pa4")
         let p5 = sb.instantiateViewController(withIdentifier: "pa5")
+        let p6 = sb.instantiateViewController(withIdentifier: "pa6")
        
         
         
-        return [p1, p2, p3, p4, p5]
+        return [p1, p2, p3, p4, p5, p6]
         
     }()
     
